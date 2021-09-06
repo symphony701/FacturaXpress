@@ -17,7 +17,7 @@
 
 <div class="e404">
   <div class="huge">404</div>
-  <div class="big">Page not found. 
+  <div class="big">Ehmmm, en que hacias ingresando a cualquier lado pibe? sigue las rutas definidas noma :v. 
   <!-- link to the parent folder of _fallback.svelte -->
   <a href={$url('../')}>Go back</a>
   </div>

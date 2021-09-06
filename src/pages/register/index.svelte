@@ -4,10 +4,13 @@
     metatags.title = 'FacturaXpress'
     metatags.description = 'Description coming soon...'
 </script>
-
 <div class="body" >
     <h1>FacturaXpress</h1>
     <div class="formulario">
+        <div class="input-login">
+            <h5>Nombre:</h5>
+            <input type="text">
+        </div>
         <div class="input-login">
             <h5>Correo:</h5>
             <input type="email">
@@ -16,10 +19,13 @@
             <h5>Contraseña:</h5>
             <input type="password">
         </div>
+        <div class="input-login">
+            <h5>Repetir Contraseña:</h5>
+            <input type="password">
+        </div>
+        
         <!-- svelte-ignore a11y-missing-attribute -->
-        <a href={$url('./main')} class="waves-effect  btn-large">Iniciar Sesion</a>
-        <!-- svelte-ignore a11y-missing-attribute -->
-        <a href={$url('./register')} class="waves-effect  btn-large">Registrarse</a>
+        <a href={$url('.././main')} class="waves-effect  btn-large">Registrarse</a>
     </div>
 </div>
 
@@ -29,7 +35,7 @@
     .body{
         width: 100%;
         height: 100%;
-        background-image: url("../images/Fondo.png");
+        background-image: url("../../images/Fondo.png");
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover;

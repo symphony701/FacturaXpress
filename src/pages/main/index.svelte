@@ -1,25 +1,12 @@
-<script>
-    import { metatags } from '@roxi/routify'
-    import { url } from '@roxi/routify'
-    metatags.title = 'FacturaXpress'
-    metatags.description = 'Description coming soon...'
-</script>
-
 <div class="body" >
     <h1>FacturaXpress</h1>
     <div class="formulario">
-        <div class="input-login">
-            <h5>Correo:</h5>
-            <input type="email">
-        </div>
-        <div class="input-login">
-            <h5>Contraseña:</h5>
-            <input type="password">
-        </div>
+        <h3>¿Que deseas realizar?</h3>
+        
         <!-- svelte-ignore a11y-missing-attribute -->
-        <a href={$url('./main')} class="waves-effect  btn-large">Iniciar Sesion</a>
+        <a  class="waves-effect  btn-large">Realizar Factura</a>
         <!-- svelte-ignore a11y-missing-attribute -->
-        <a href={$url('./register')} class="waves-effect  btn-large">Registrarse</a>
+        <a  class="waves-effect  btn-large">Soporte</a>
     </div>
 </div>
 
@@ -29,7 +16,7 @@
     .body{
         width: 100%;
         height: 100%;
-        background-image: url("../images/Fondo.png");
+        background-image: url("../../images/Fondo.png");
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover;
