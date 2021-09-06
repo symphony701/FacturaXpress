@@ -40,7 +40,7 @@
         color:white
     }
 
-    .formulario h5{
+    /*.formulario h5{
         color: white;
         font-size:bold;
     }
@@ -54,7 +54,7 @@
         width: 50% !important;
         color:white !important;
 
-    }
+    }*/
     .formulario a{
         margin-top: 1.4%;
     }
