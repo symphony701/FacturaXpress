@@ -1,5 +1,5 @@
 var ghpages = require('gh-pages');
-//es un comentario de prueba
+//es un comentario de prueba 2 xd
 ghpages.publish(
     'public', // path to public directory
     {
