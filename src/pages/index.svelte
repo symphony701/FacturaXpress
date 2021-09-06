@@ -29,7 +29,7 @@
     .body{
         width: 100%;
         height: 100%;
-        background-image: url("/../../images/Fondo.png");
+        background-image: url("./../Images/Fondo.png");
         background-position: center; 
         background-repeat: no-repeat; 
         background-size: cover;
